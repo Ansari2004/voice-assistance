@@ -8,7 +8,7 @@ from openai import OpenAI
 # Initialize recognizer and TTS
 reconize = sr.Recognizer()
 ttsx = pt.init()
-newsapi = "5da9e93847844e2e85880fcffc711839"
+newsapi = ""
 
 def speak(text):
     ttsx.say(text)
